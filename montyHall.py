@@ -23,12 +23,10 @@ for choices in range(simulationTrys):
     random.shuffle(doorList)
     if doorList[1] == 'Goat':
         finalChoice = doorList[2]
-        if finalChoice == 'Car':
-            winList.append('win')
     else:
         finalChoice = doorList[1]
-        if finalChoice == 'Car':
-            winList.append('win')
+    if finalChoice == 'Car':
+        winList.append('win')
         
 
 
