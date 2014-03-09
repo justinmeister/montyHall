@@ -29,12 +29,8 @@ for choices in range(simulationTrys):
         winList.append('win')
         
 
-
-
 wins = len(winList)
-
 winPercentage = (float(wins) / float(simulationTrys)) * 100
-
 
 
 print 'In a simulation of a million monty halls, the win percentagage is ' + str(winPercentage) + '%.'
